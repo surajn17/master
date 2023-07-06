@@ -1,246 +1,167 @@
+@media (max-width: 1260px) {
+    .slider_section .box {
+        flex-direction: column;
+    }
 
+    .slider_section .box .detail-box h1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 15px;
+        text-align: center;
+        justify-content: center;
+    }
 
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+    .slider_section .box .detail-box h1 span {
+        margin-right: 12px;
+    }
 
-@media (min-width: 1200px) and (max-width: 1342px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
+    .help_section .detail-box {
+        padding: 0;
+    }
+
+    .slider_section .box .detail-box .btn-box {
+        margin-top: 15px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
+@media (max-width: 1120px) {}
+
+@media (max-width: 991px) {
+    .hero_area {
+        height: auto;
+        background-size: cover;
+        flex-direction: column;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 22%;
+
+    .header_section {
+        padding: 0 25px;
+
     }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
+
+    .slider_section .navbar-brand {
+        display: none;
     }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 19px;
+
+    .header_section .navbar-brand {
+        display: flex;
     }
-    .sealo ul li a {
-        padding-right: 43px;
+
+    .custom_nav-container {
+        flex-direction: row;
+        justify-content: space-between;
     }
-    ul.social_icon li {
-        margin: 0 0px;
+
+    .custom_nav-container .name_style {
+        display: none;
     }
-    .cuplle h3 {
-        font-size: 53px;
+
+    .user_option {
+        flex-direction: row;
     }
-    ul.social_icon li a i {
-        width: 31px;
-        height: 31px;
+
+    .user_option .nav_search-btn {
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .custom_menu-btn button {
+        margin: 15px 0;
+    }
+
+    .menu_btn-style {
+
+        position: fixed;
+        left: 22px;
+        top: 4px;
+
+    }
+
+    .feature_section {
+        flex-direction: column;
+        padding-top: 45px;
+    }
+
+    .feature_section .carousel_btn-box {
+        margin: 0;
+    }
+
+    .about_section .img-box .stripe_design {
+        width: 15px;
+    }
+
+    .news_section .detail_container .detail-box {
+        padding: 25px;
+    }
+
+    .news_section .img-box {
+        margin: 0;
+        margin-top: 45px;
+    }
+
+    .client_section .owl-carousel {
+        padding: 0;
+    }
+
+    .client_section .owl-carousel .owl-nav button {
+        position: unset;
+        transform: none;
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about_section .detail-box,
+    .help_section .detail-box,
+    .contact_section .form_container {
+        margin-bottom: 45px;
+    }
+
+    .info_section .row>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info_section .row>div:not(:nth-last-child(1)) {
+        margin-bottom: 45px;
+    }
+
+    .info_section .info_links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_section .img-box .stripe_design {
+        width: 25px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
+@media (max-width: 576px) {
+    .about_section .img-box .stripe_design {
+        width: 20px;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
-    }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 13px;
-        font-size: 14px;
-    }
-    .sealo ul li a {
-        padding-right: 28px;
-    }
-    .logo {
-        width: 140px;
-    }
-    .cuplle h3 {
-        font-size: 45px;
-    }
-    .titlepage h2 {
-        font-size: 45px;
-    }
-    .tz-gallery .lightbox h3 {
-        top: 21px
+
+    .news_section .detail_container .detail-box .news_social {
+        padding: 15px 0;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 111px;
-        background-size: 100% 100%;
-    }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
-    }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
-    }
-    .logo {
-        width: 149px;
-    }
-    .slider_main {
-        padding-top: 28%;
-    }
-    .cuplle h3 {
-        font-size: 41px;
-    }
-    .inner_page .logo {
-        text-align: center !important;
-        float: inherit;
-        margin: 0 auto;
-    }
-    .doi {
-        margin-top: 30px;
-    }
-    .sealo {
-        display: none;
-    }
-    .navigation.navbar {
-        float: right;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-    }
-    .navigation .navbar-collapse {
-        background: #021626;
-        padding: 20px;
-        margin-top: 67px;
-        position: absolute;
-        width: 100%;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        border: inherit;
-        float: right;
-        padding: 0;
-        width: 100%;
-        outline: inherit;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-        width: 48px;
-        float: right;
-    }
-    .d_none {
-        display: none;
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 360px) {
+    .about_section .img-box .stripe_design {
+        width: 15px;
     }
 }
 
-@media (max-width: 575px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 111px;
-        background-size: 100% 100%;
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
-    }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 0%;
-    }
-    .header {
-        padding: 40px 0px;
-    }
-    .logo {
-        text-align: center !important;
-        padding-bottom: 6px;
-        float: left;
-        width: 149px;
-        margin: 0 auto;
-        display: block;
-    }
-    .inner_page .logo {
-        text-align: center !important;
-        float: inherit;
-        margin: 0 auto;
-    }
-    .cuplle h3 {
-        font-size: 26px;
-        line-height: 45px;
-    }
-    .ma_bottom30 {
-        margin-bottom: 30px;
-    }
-    .doi {
-        margin-top: 30px;
-    }
-    .sealo {
-        display: none;
-    }
-    .titlepage h2 {
-        line-height: 30px;
-        font-size: 31px;
-    }
-    .margintop {
-        margin-top: 50px;
-    }
-    .display_smsho {
-        display: inherit;
-    }
-    .display_smnone {
-        display: none;
-    }
-    .infoma {
-        margin-top: 20px;
-    }
-    .copyright p {
-        font-size: 17px;
-    }
-    .navigation.navbar {
-        float: right;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-    }
-    .navigation .navbar-collapse {
-        background: #000000;
-        padding: 20px;
-        margin-top: 67px;
-        position: absolute;
-        width: 100%;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        float: right;
-        border: inherit;
-        margin-top: 1px;
-        padding: 0;
-        outline: inherit;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-        width: 48px;
-    }
-    .d_none {
-        display: none;
-    }
+
 }
